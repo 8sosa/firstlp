@@ -1,0 +1,75 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+    font-family: 'prata', cursive;
+}
+h2{
+    font-family: 'prata', cursive;
+}
+section{
+    min-height: max-content;
+}
+.nav-link{
+    color: #e99142;
+}
+#showcase{
+    min-height: 400px;
+}
+#card{
+    min-height: 400px;
+}
+#textt{
+    color: #e99142;
+}
+#whyus{
+    background-image: url(img/orange.png);
+}
+#works{
+    background-image: url(img/white.png);
+}
+#contactus{
+    background-image: url(img/white.png);
+}
+h1{
+    font-size: 50px;
+    font-family: 'prata', cursive;
+}
+#showcase{
+    background-image: url(img/black.png);
+}
+#navbar{
+    background-color: black;
+}
+#chead{
+    color: #e99142;
+    font-family: 'Prata', serif;
+}
+#enq{
+    height: 100px;
+}
+img{
+    border: #e99142;
+    border-width: 2px;
+}
+table{
+    height: 300px;
+    color: black;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px black;
+}
+td{
+    border: 1px solid black;
+}
+
+
+@media(min-width: 768px)
+{
+    .news-input
+    {
+        width: 50%;
+    }
+}
